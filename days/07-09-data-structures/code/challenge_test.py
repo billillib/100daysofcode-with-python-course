@@ -1,4 +1,4 @@
-from challenge import (states, get_every_nth_state,
+from challenge import (get_every_nth_state,
                        get_longest_state,
                        combine_state_names_and_abbreviations,
                        get_state_abbrev)
