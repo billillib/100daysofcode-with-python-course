@@ -6,8 +6,8 @@ class MyDB:
         self.conn = None
 
     def __enter__(self):
-        self.conn = psycopg2.connect("host=localhost dbname=test user=postgres "
-                                     "password=docker")
+        self.conn = psycopg2.connect("host=localhost dbname=test "
+                                     "user=postgres password=docker")
         self.conn.autocommit = True
 
     def __exit__(self, *args):
